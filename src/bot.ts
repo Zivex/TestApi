@@ -28,7 +28,6 @@ export class ChatGPTBot {
   // Record talkid with conversation id
   chatGPTPool = new ChatGPTPool();
   chatPrivateTiggerKeyword = config.chatPrivateTiggerKeyword;
- 
   botName: string = "";
   ready = false;
   setBotName(botName: string) {

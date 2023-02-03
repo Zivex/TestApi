@@ -13,7 +13,6 @@ const bot =  WechatyBuilder.build({
 // get a Wechaty instance
 
 async function main() {
-  console.log('启动')
   await chatGPTBot.startGPTBot();
   bot
     .on("scan", async (qrcode, status) => {

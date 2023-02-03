@@ -8,7 +8,6 @@ let configFile: any = {};
 if (fs.existsSync("./config.yaml")) {
   const file = fs.readFileSync("./config.yaml", "utf8");
   configFile = parse(file);
-  console.log(configFile)
 } else {
   configFile = {
     chatGPTAccountPool: [
